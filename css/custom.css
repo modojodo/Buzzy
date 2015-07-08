@@ -1,6 +1,7 @@
 body {
-    background-color: #F7E520;
+    /*background-color: #F7E520;*/
     padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar {
@@ -10,7 +11,6 @@ body {
 
     /*box-shadow: -2px -2px 2px #000;*/
 }
-
 
 /*#brand_logo {*/
 /*margin-right: 10px;*/
@@ -22,51 +22,86 @@ body {
     font-weight: bold;
 }
 
+/*Carousel CSS*/
+
+.carousel {
+    background-color: #F7E520;
+    /*padding: 0;*/
+    margin: 0;
+}
+
 .carousel-control.right, .carousel-control.left {
     background-image: none;
 }
 
+#h1_first {
+    font-weight: normal;
+}
+
+#h1_last {
+    font-weight: bold;
+}
+.carousel_content_heading{
+
+}
+
 .carousel_content_heading h1 {
-    font-size: 350%;
+    font-size: 250%;
 }
 
 .carousel_content_heading h3 {
     font-size: 200%;
 }
 
+.carouse_features {
+    margin-top: 5%;
+}
+
+.item {
+    margin-top: 3%;
+}
+
 .item_text {
-    margin-left: 10px;
+    margin-left: 2%;
 }
 
 .item_content {
-    margin-top: 200px;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .content_btn {
-    display: table;
 }
 
 .content_btn a {
     background: none;
-    border: 4px solid black;
+    border: 3px solid #272528;
     border-radius: 0;
-    min-width: 150px;
-    min-height: 100px;
-    font-size: 15px;
-    margin: 20px;
-    display: table-cell;
-    vertical-align: middle;
+    /*font-size: 15px;*/
+    min-width: 130px;
 }
 
 .content_btn a:hover {
-    background: rgba(0, 0, 0, 0.1);
-    border: 4px solid black;
+    background: rgba(39, 37, 40, 0.1);
+    border: 3px solid #272528;
 }
 
 .content_btn a:focus {
     background: rgba(0, 0, 0, 0.1);
     border: 4px solid black;
+}
+
+.item_img {
+
+    margin-bottom: -4px;
+    position: relative;
+}
+
+#iphone_mockup{
+text-align: center;
+}
+
+#features_heading{
+    text-align: center;
 }
 
 /* Navbar Colors*/
@@ -145,3 +180,4 @@ body {
         background-color: #fdfdfe;
     }
 }
+

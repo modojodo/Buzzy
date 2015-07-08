@@ -3,5 +3,5 @@
  */
 
 $(function(){
-    $('.carousel').carousel()
+    //$('.carousel').carousel('pause');
 });
