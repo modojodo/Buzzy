@@ -4,6 +4,14 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#features {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+
 .navbar {
     margin: 30px 30px 0 30px;
     padding-right: 20px;
@@ -41,7 +49,8 @@ body {
 #h1_last {
     font-weight: bold;
 }
-.carousel_content_heading{
+
+.carousel_content_heading {
 
 }
 
@@ -96,12 +105,59 @@ body {
     position: relative;
 }
 
-#iphone_mockup{
-text-align: center;
+#iphone_mockup {
+    text-align: center;
 }
 
-#features_heading{
+#features_top h3 {
+    margin-bottom: 4%;
+}
+
+#features_top {
     text-align: center;
+    margin-bottom: 4%;
+    position: relative;
+
+}
+
+#features_top h3:after {
+    content: "";
+    margin-left: 20px;
+    width: 60px;
+    height: 1px;
+    background-color: #B9BCC1;
+    display: inline-block;
+    vertical-align: 20%;
+
+}
+
+#features_top h3:before {
+    content: "";
+    margin-right: 20px;
+    width: 60px;
+    height: 1px;
+    background-color: #B9BCC1;
+    display: inline-block;
+    vertical-align: 20%;
+
+}
+
+.feature_container {
+    margin-bottom: 50px;
+}
+
+.feature_heading {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.feature_content {
+    text-align: justify;
+    color: #858585;
+}
+
+.feature_icon {
+    color: #BCBCBC;
 }
 
 /* Navbar Colors*/
