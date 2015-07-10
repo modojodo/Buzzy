@@ -1,5 +1,5 @@
 body {
-    /*background-color: #F7E520;*/
+    background-color: #FDFDFE;
     padding-top: 100px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -143,12 +143,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature_container {
-    margin-bottom: 50px;
+    margin-bottom: 35%;
+    padding-top: 10px;
+    border-radius: 2px;
+}
+.feature_container:hover {
+    background-color: #FCFAE7;
+    box-shadow: 1px 1px 5px #000;
 }
 
 .feature_heading {
     padding: 0;
     margin: 0 0 10px 0;
+    color: #282629;
 }
 
 .feature_content {
@@ -156,10 +163,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #858585;
 }
 
-.feature_icon {
-    color: #BCBCBC;
-}
 
+.feature_container .fa{
+    color: #BCBCBC;
+    font-size: 1.5em;
+}
 /* Navbar Colors*/
 
 .navbar-default {
