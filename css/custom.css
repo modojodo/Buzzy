@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Carousel CSS*/
 
 .carousel {
-    background-color: #F7E520;
+    background-color: #20B1AA;
     /*padding: 0;*/
     margin: 0;
 }
@@ -132,9 +132,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature_container {
-    margin-bottom: 35%;
+    margin-bottom: 15%;
     padding-top: 10px;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .feature_container:hover {
@@ -149,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature_content {
-    text-align: justify;
+    /*text-align: justify;*/
     color: #858585;
 }
 
