@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section_top h3 {
     margin-bottom: 4%;
-    text-align:center;
+    text-align: center;
 }
 
 .section_top {
@@ -159,20 +159,51 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
 }
 
-.gallery, .members{
-    background-color:#F9F9F9;
+.gallery, .members {
+    background-color: #F9F9F9;
     padding-top: 50px;
 }
 
-.screenshot{
-    min-width:186px;
+.screenshot {
+    min-width: 186px;
 
-    max-height:320px;
+    max-height: 320px;
 }
 
+.quotes .item_content {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.quotes .fa{
+    font-size: 40px;
+    color:#EEEEEE;
+    margin-bottom: 5%;
+}
 
+.quotes .author{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.quotes .author .author-title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+}
 
+.quotes .author .author-des{
+    margin: 0;
+    font-size: 10px;
+}
+.quotes .author img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
 
+blockquote{
+    border-left:none;
+}
 /* Navbar Colors*/
 
 .navbar-default {
