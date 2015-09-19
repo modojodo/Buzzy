@@ -159,8 +159,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
 }
 
-#gallery{
+.gallery, .members{
     background-color:#F9F9F9;
+    padding-top: 50px;
 }
 
 .screenshot{
