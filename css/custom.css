@@ -159,9 +159,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
 }
 
-.gallery, .members {
+.gallery, .team {
     background-color: #F9F9F9;
-    padding-top: 50px;
+}
+
+.team .team-members {
+    text-align: center;
 }
 
 .screenshot {
@@ -174,36 +177,40 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 5%;
 }
-.quotes .fa{
+
+.quotes .fa {
     font-size: 40px;
-    color:#EEEEEE;
+    color: #EEEEEE;
     margin-bottom: 5%;
 }
 
-.quotes .author{
+.quotes .author {
     text-align: center;
     margin-bottom: 5%;
 }
-.quotes .author .author-title{
+
+.quotes .author .author-title {
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 0;
 }
 
-.quotes .author .author-des{
+.quotes .author .author-des {
     margin: 0;
     font-size: 10px;
 }
-.quotes .author img{
+
+.quotes .author img {
     max-width: 100px;
     max-height: 100px;
     border-radius: 50%;
     display: inline-block;
 }
 
-blockquote{
-    border-left:none;
+blockquote {
+    border-left: none;
 }
+
 /* Navbar Colors*/
 
 .navbar-default {
