@@ -211,6 +211,22 @@ blockquote {
     border-left: none;
 }
 
+.input-fields {
+    border: none;
+    background-color: #FDFDFE;
+    box-shadow: none;
+    border-bottom: 1px solid #CBCBCB;
+    border-radius: 0;
+}
+
+.input-fields:focus {
+    box-shadow: none;
+    border-color: #000000;
+}
+
+form button{
+     border: none;
+ }
 /* Navbar Colors*/
 
 .navbar-default {
