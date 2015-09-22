@@ -211,6 +211,17 @@ blockquote {
     border-left: none;
 }
 
+#contact {
+    border-bottom: 5px solid #20B1AA;
+}
+
+#contact .icon-col i {
+    font-size: 25px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    color: #CCD1D5;
+}
+
 .input-fields {
     border: none;
     background-color: #FDFDFE;
@@ -224,9 +235,6 @@ blockquote {
     border-color: #000000;
 }
 
-form button{
-     border: none;
- }
 /* Navbar Colors*/
 
 .navbar-default {
